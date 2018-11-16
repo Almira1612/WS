@@ -29,7 +29,17 @@
   cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
 }*/
 
+.theme-showcase{
 
+  float: right;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  width: 70%;
+  margin-top: 50px;
+  right:8%;
+
+}
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
@@ -75,17 +85,17 @@
 
 /* button div */
 #buttons {
-  padding-top: 50px;
   text-align: center;
+  float: right;
 }
 
 /* start da css for da buttons */
 .btn {
   border-radius: 5px;
-  padding: 15px 25px;
-  font-size: 22px;
+  padding: 10px 20px;
+  font-size: 15px;
   text-decoration: none;
-  margin: 20px;
+  margin: 10px;
   color: #fff;
   position: relative;
   display: inline-block;
@@ -248,4 +258,13 @@ body{
 .table-tight-vert > tfoot > tr > td {
   padding-top: 0;
   padding-bottom: 0;
+}
+#buttons{
+  float: right;
+  margin: 10px;
+  
+}
+.btn_orange{
+   color: blue;
+   font-size: 5px;
 }
