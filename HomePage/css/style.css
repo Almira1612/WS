@@ -268,3 +268,7 @@ body{
    color: blue;
    font-size: 5px;
 }
+.footer-below{
+  padding: 10px;
+  text-align: center;
+}
